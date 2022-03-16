@@ -12,8 +12,11 @@
     },
     {
       "name": "aws-s3",
-      "cnames": [],
-      "patterns": ["The specified bucket does not exist"]
+      "cnames": [".amazonaws.com"],
+      "patterns": [
+        "The specified bucket does not exist",
+        "NoSuchBucket"
+      ]
     },
     {
       "name": "azure",

@@ -60,7 +60,10 @@
     },
     {
       "name": "github-pages",
-      "cnames": [],
+      "cnames": [
+        ".github.com",
+        ".github.io"
+      ],
       "patterns": ["There isn't a GitHub Pages site here."]
     },
     {
